@@ -1,0 +1,134 @@
+<!--#Je definis le type de mon document et je configure ce dont j'ai besoin comme la langue, les caractères speciaux etc..-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Je definis le nom de ma page qui correspondera à mon nom d'onglet.-->
+    <title>CV de Michael Zanaglia</title>
+</head>
+<!--Tout ce qu'il y aura dans mon body sera afficher pour l'utilisateur.-->
+<body>
+<!--J'ajoute une image dans ma page et je decide de sa taille ainsi que sa position.-->
+    <img src="photo.png" align="left" height="200">
+    <br />
+    <p> 
+<!--Ici je creer un raccourci pour se deplacer sur ma page html. J'ai cree une ancre.-->
+        <a href="#pdf">Aller vers le CV téléchargeable</a>
+<!--center pour centrer mon texte.-->
+        <center>
+<!--span est un élément permettant de styliser sa page avec des parametres tels que le changement de couleur ou la taille de son texte. -->
+            <span style="font-size: 42px; color: blueviolet"> Michael Zanaglia</span>
+            <br />
+            <i>25 ans, En recherche perpétuelle de nouveau challenge dans le monde du developpement l'informatique.</i>
+        </center>
+<!--br permet un saut de ligne. Les deux formulations fonctionnent.-->
+        <br /> 
+        <br>
+        <br>
+        <br> 
+        14 rue de la libération, Lebeaumarchais Bat.B
+        <br />
+        06150 Cannes la Bocca
+        <br />
+        michael.zanaglia@laplateforme.io
+        <br />
+        06.63.06.03.16
+    </p>
+    <br />
+    <section>
+        <center>
+            <img src="beret.png"  height="20" alt="Icone d'un chapeau d'étudiant.">
+            <span style="font-size: 22px; color: blueviolet">Formations</span>
+            <br />
+            2023 - Bachelor IT Ecole La Plateforme <i>(en cours)</i>
+            <br />
+            2022 - CAP Pâtisserie Faculté des métiers de Cannes
+            <br />
+            2020 - Licence LLCER Japonais Université Aix-Marseille Lycée Jules Ferry
+            <br />
+            2016 - Baccalauréat Technologique SIN avec mention BIEN
+        </center>
+    </section>
+        <br />
+    <section>
+        <center>
+            <img src="images\travail.png" alt="cartable, sac professionnelle" height="20">
+            <span style="font-size: 22px; color: blueviolet">Expériences Professionnelles</span>
+            <br />
+            2018 - 2021
+            <br />
+            <b>Equipier Polyvalent</b>
+            Subway (Mandelieu-la-Napoule)
+            <i>En charge de l'ouverture et de la fermeture du restaurant, gestion de caisse, acceuillir et servir les clients.</i>
+            <br />
+            2021 - 2022
+            <br />
+            <b>Apprenti Pâtissier</b>
+            Bono (Antibes)
+            <i>Chargé de fabrication et de production et aides à la productions de commandes. Entretient du laboratoire en adequations aux normes d'hygienes.</i>
+            <br />
+            2022-2023
+            <br />
+            <b>Aide Pâtissière</b>
+            Cacahouète Paris (Tokyo)
+            <i>Aide de fabrication et de production selon les standards japonais au sein d'une équipe franco-japonaise.</i>
+        </center>
+    </section> 
+        <br />
+    <section> 
+        <center>
+            <img src="images\langue.png" alt="bulle representant les langues parlées" height="20">
+            <span style="font-size: 22px; color: blueviolet">Langues</span>
+            <br />
+            Francais : Langues Maternelles
+            <br />
+            Anglais : Niveau B2
+            <br />
+            Japonais : Niveau N4 / N3
+        </center>
+    </section>  
+        <br />
+    <section>     
+        <center>
+            <img src="images\skill.png" alt="image representant une tete avec un rouage pour representer les compétences" height="30">
+            <span style="font-size: 22px; color: blueviolet">Compétences</span>
+            <br />
+            <img src="images\python.png" alt="icone du logiciel python"  height="20">
+            Base en Python
+            <br />
+            <img src="images\linux.png" alt="icone du logiciel linux" height="30">
+            Installation de VM sous Linux
+            <br />
+            <img src="images\bsh.png" alt="icone du logiciel basch"  height="20">
+            Connaissance en Basch
+            <br />
+            <img src="images\html.png" alt="icone de html" height="20">
+            HTML
+            <br />
+            <img src="images\bulle.png"  height="20">
+            Travail en équipe &  Communication Interculturelle
+            <br />
+            <img src="images\proac.jpg"  height="30">
+            Proactif
+            <br />             
+        </center>
+    </section>     
+        <br />
+    <section>     
+        <footer>
+            <center>   
+                <img src="images\git.png"  height="30" alt="github, lien, cv">
+                <a href=https://github.com/michael-zanaglia>Mon GitHub</a>
+            </center>
+            <br />
+            <center>
+<!-- id est la creation de mon ancrage et l'élément href permet d'associer un texte à un lien.-->
+                <a id="pdf" href="zmcv.pdf" title="lien vers mon cv télécharble" download>Mon CV en PDF !</a>
+            </center>
+        </footer>
+    </section>
+    
+
+</body>
+</html>
